@@ -30,5 +30,8 @@ empty_list.insert(31, 'kiwi')  # adding an element at a specific index
 print(empty_list)
 empty_list.insert(0, 'orange')
 print(empty_list)
+# adding multiple elements to the list and reasigning it to the same list
+fruits = fruits + empty_list
+print(fruits)
 fruits.extend(empty_list)  # adding multiple elements to the list
 print(fruits)
