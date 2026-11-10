@@ -5,7 +5,7 @@ print(f"Type of data: {type(empty_set)}")
 print(f"Length of empty set: {len(empty_set)}")
 food = {'biriyani', 'curry', 'rice', 'fry', 'dosa'}
 print(f"Set: {food}")  # unordered data type
-# print(help(set)) to find and understand methods in set
+# print(help(set))  # to find and understand methods in set
 print()
 print('---------SET-Methods----------')
 s1 = set()
@@ -21,6 +21,5 @@ print(f"The update method used:{s2}")
 print(f"food set: {food}")
 food.pop()  # removes a random value from the set
 print(f"Pop method used: {food}")
-
 food.remove('curry')  # removes a specific value from the set
 print(f"Remove method used: {food}")
